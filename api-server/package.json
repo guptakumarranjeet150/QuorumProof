@@ -5,9 +5,9 @@
   "type": "module",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc --noEmit false 2>&1 || true",
-    "start": "node dist/index.js",
-    "dev": "tsx src/index.ts",
+    "build": "node init && tsc --noEmit false 2>&1 || true",
+    "start": "node init && node dist/index.js",
+    "dev": "node init && tsx src/index.ts",
     "test": "vitest --run",
     "loadtest:ws": "tsx loadtest/wsLoadTest.ts",
     "loadtest:credentials": "tsx loadtest/credentialLoadTest.ts",
