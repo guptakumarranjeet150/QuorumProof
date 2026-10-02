@@ -6,7 +6,7 @@
   "main": "dist/TTSService.js",
   "types": "dist/TTSService.d.ts",
   "scripts": {
-    "build": "tsc --noEmit false",
+    "build": "node init && tsc --noEmit false",
     "test": "vitest --run",
     "typecheck": "tsc --noEmit"
   },

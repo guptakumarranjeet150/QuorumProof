@@ -87,13 +87,11 @@ api-server/.data/
 .DS_Store
 *.swp
 *.swo
-.vscode/settings.json
 .idea/
 *.iml
 Thumbs.db
 
 # Misc
-.env
 *.env.local
 dist/
 dashboard/dist/
@@ -157,3 +155,4 @@ VERIFICATION_CHECKLIST.md
 
 # Longevity test output (#1632)
 longevity-reports/
+config.bat
